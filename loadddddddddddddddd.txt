@@ -1,0 +1,330 @@
+1)Which of the following properties can NOT be animated using jQuery?
+- color (opacity,width,font-size,color)
+
+2)The jQuery method .text() will:
+- get or set the text content depending on whether it has a argument
+
+3)jQuery has the advantage over plain JavaScript of:
+- Less code for the same task, Simple selectors, Cross-browser compatibility
+
+4)jQuery has special methods for class attributes. What is the advantage of these methods?
+- they add or remove classes without affecting other classes
+
+5)To use jQuery to select the form field that the cursor is in, use:
+- $(':focus')
+
+6)What will the following code do assuming there are 12 li elements in the document?
+$('li').text('Cookies').addClass('fav').removeAttr('id');
+- Change the content of all li elements to "Cookies", add the class "fav" to all li's, and remove any "id" attribute for all li's
+
+7)To make accessing each element in a jQuery collection easier, it provides the method:
+- .each()
+
+8)What is the short form of the document ready method?
+- $(function() {
+});
+
+9)The jQuery .show() and .hide() methods are used to:
+- show and hide DOM elements
+
+10)The .fadeTo() method changes the __________ CSS property.
+- opacity
+
+11) Although Ajax is often used to retrieve data, it can also send data to a server.
+- True
+
+12) Ajax refers to the ability to:
+- reload part of the page without loading a whole new page
+
+13)You can run XMLHttpRequest's locally on your machine without a server
+- False
+
+14)What does "true" do in the following code?
+xhr.open(‘GET’, ‘test.json’, true);
+- Makes the request asynchronous
+
+15)What status code indicates that an XMLHttpRequest returned content successfully?
+- 200
+
+16)Which of the XMLHttpRequest objects' properties is a JSON response found in?
+- xhr.responseText
+
+17)Which of the XMLHttpRequest object's methods initiates communication with a server?
+- xhr.send()
+
+18)What type of data can you get using the XMLHttpRequest object?
+- HTML, XML, JSON
+
+19)What method processes the XMLHttpRequest data once it's been retrieved?
+- onload
+
+20)jQuery has methods to make AJAX easier.
+- True
+
+21) What does an API do?
+- It allows programs to communicate with other programs
+
+22)Session storage is still accessible after you've closed the tab in the browser.
+- False
+
+23)Using the history API, you can change the URL without having to load an entirely new page
+- True
+
+24)Before using one of the new HTML5 API's, you should:
+-Use feature detection
+
+25)What is an API?
+-Application Programming Interface
+
+26)The History API is used to:
+- rewrite the address URL without reloading the page
+
+27)To store data that will NOT be deleted as soon as the user closes the browser, we can use:
+- localStorage
+
+28)Web Storage allows you to:
+- store large amounts of data in the browser
+
+29)Which of the following is NOT an example of a new HTML JavaScript API?
+- Internationalization
+
+30)In order to determine the users location, you would use:
+- navigation.geolocation.getCurrentPosition()
+
+31)All jQuery ajax methods are asynchronous by default
+- True
+
+32)When using the load method, you are able to choose specific html you want to add to an element by providing an id in your method call
+- True
+
+33) jqXHR objects and XMLHttpRequest objects both have the properties responseText and responseXML
+- True
+
+34)the .load method returns a jqXHR object
+- False
+
+35)Which of the following is a a valid "type" in the following function definition?
+$.get(url[, data][, callback][, type])
+- xml, json, script, text, html
+
+36)Which of the following methods will specifically run after a jQuery ajax request returns successfully?
+- .done()
+
+37) Select all the jQuery methods that can be used to retrieve JSON via a GET request.
+- $.getJSON, $.get()
+
+38)In the code block image, click where the ajax callback method definition is
+- function
+
+39)Which of the following is a jQUery equivalent of a foreach method?
+- $.each()
+
+40)What operator allows us to check if a property or method is a member of an object?
+- in
+
+41)The this keyword works the same in normal function definitions and arrow function definitions
+- false
+
+42)Which methods exist in the Object.prototype? Select all that apply
+- toLocalString, valueOf, constructor
+
+43)The class keyword was added to javascript in the year 2015
+- true
+
+44)When instantiating an object, what method in the class definition gets called?
+- constructor
+
+45)We can find the prototype of any object by using the Object.getPrototypeOf() method
+- true
+
+46)Creating objects was not possible in JavaScript before ES2015
+- false
+
+47)We have the ability to define methods in our class that can act as a variable by an instantiated object of that class.
+-true
+
+48)What is the base prototype for all objects?
+- object prototype
+
+49)The keyword 'this' generally refers to:
+- the object that the method is acting on
+
+50)To prevent a link or button from doing what it normally would, you use the event object's:
+- preventDefault() method
+
+51)jQuery show(), hide() and toggle() methods calculate the size of:
+- a box included content, margins and padding
+
+52)Using the keyword 'this' and jquery selector $(this) do the same thing.
+- false
+
+53)Why would you go through the extra trouble of making your jQuery code a jQuery plug-in?
+- so it is reusable
+
+54)Which of the following is not a content panel?
+- jQuery plug-in
+
+55)An accordion panel has the advantage over a tabbed panel:
+- it can have more panels 
+
+56)In order to provide good accessibility, you should use <a> and <button> elements when:
+- the user will interact with the element
+
+57)To create your own jQuery plugin, you extend the jQuery object using its:
+- fn object
+
+58)If you want to display an album of multiple images, with preview images associated to them, which content panel is the best option?
+- Photo Viewer
+
+59)To create your own jQuery plugin, you extend the jQuery object using its:
+- fn object
+
+60)How can you halt animations using jQuery?
+- stop()
+
+61)In jQuery, the height() method and outerHeight() method return the same dimensions.
+- False
+
+62)If you want to display automatically cycling headlines to the user with hero images, what would be the best content panel to use?
+- Slider
+
+63)If you want to display information to the user in an element in the center of the screen, no matter where the user is on the page, which content panel is your best option?
+- Modal
+
+64)You can interact normally with the rest of the page when a modal is open.
+- False
+
+65)What method allows you to get the vertical position of the scroll bar for an element?
+- .scrollTop()
+
+66)When creating a picture viewer content panel, there's an issue with loading the same large images over and over when you switch from one image to another. How did we solve this?
+- Cache the images 
+
+67)If you want to display information about 20 employees in a company, which content panel would be best?
+- Accordion
+
+68)When doing a search, the script will match the user input to:
+- any value that is required
+
+69)On an array, the difference between the pop() and shift() methods is
+- one removes an item from the beginning and the other from the end
+
+70)If you use an array to store information (rather than an object), you can:
+- store information in a specific order
+
+71)the split() method of the string object will create
+- array of values
+
+72)Searching is a technique that
+- allows the user to type a value to display
+
+73)Filtering is a technique that
+- shows item within a range of values
+
+74)Rather than recreating the displayed data every time a filter or search is changed, it is better to:
+- show/hides values
+
+75)Which method would you use to reorder the contents of an array?
+- sort()
+
+76)When creating an array of objects, the object properties must always be added in the same order.
+- false 
+
+77)In HTML5, you can store additional information on tags using:
+- data attributes
+
+78)You can change the order returned by your array sort method by using a compare function.
+- True
+
+79)Filtering and searching accomplish the same thing
+- False
+
+80)Given the following code, what would be the value of the scores array?
+
+let scores = [1, 5, 2, 10, 9];
+
+scores = scores.sort();
+- [1, 10, 2, 5, 9]
+
+81)What does the following code do to the prices array?
+
+var prices = [1, 2, 125, 19, 14];
+
+prices = prices.sort((a, b) => b - a); 
+- Sort prices in descending order
+
+82)When sorting an array, we can define a compare function that will specify
+- the order of two values
+
+83)You cannot use the array sort method to randomize the array order.
+- false
+
+84)Sorting arrays lexicographically in JavaScript orders strings in the following order:
+- numbers, uppercase, lowercase
+
+85)The array sort method can be used to: (select all that apply)
+- sort an array in ascending order
+- sort an array in descending order
+- randomize an array order
+
+86)In the following compare function definition, when would the sort swap the order of a and b?
+var arr = [15, 6, 9, 2, 30];
+
+arr.sort (function(a, b){
+    return a - b;
+});
+- When b is greater than a
+
+86)Sorting is a technique that:
+- changes the order of the items being displayed
+
+87)When a form control looses focus it triggers a(n) __________ event.
+- blur
+
+88)The term "Form Controls" refers to:
+- all fields and buttonsin the form
+
+89)Which attribute would we change to show the value of a password field to the user?
+- type
+
+
+91)Form controls contain a reference to the form they are inside of.
+- true
+
+92)If we what to run our JavaScript when the form is submitted instead of sending it to the server, what method must we call?
+- preventDefault()
+
+93)Form enhancement refers to HTML5 and JavaScript code that:
+- will help make it easier for the user fill in the form
+
+94)Which event tells you when a user has changed the value of a text input?
+- input
+
+95)Which property of the `<form>` element contains a node representing each form control?
+- elements
+
+96)Which of the following is NOT a property or method of the `<form>` element?
+- fields
+
+97) If the user does not have JavaScript enabled in their browser, they should be able to:
+- view all the content anyway
+
+98) Given the following code, which method has an error in it?
+- class Temperature {
+    constructor(celsius) {
+        this.celsius = celsius;
+    }
+    get fahrenheit() {
+        return this.celsius * 1.8 + 32;
+    }
+    set fahrenheit(val) {
+        this.celsius = (val - 32) / 1.8;
+    }
+    toString() {
+        return `Temperature is ${celcius} degrees C`;
+    }
+}
+- toString
+99).When a form control looses focus it triggers a(n) __________ event.
+--checked
+

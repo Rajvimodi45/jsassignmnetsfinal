@@ -1,0 +1,259 @@
+1.In order to provide good accessibility, you should use <a> and <button> elements when:
+--the user will interact with the element
+
+2.To prevent a link or button from doing what it normally would, you use the event object's:
+--preventDefault() method
+
+3.jQuery show(), hide() and toggle() methods calculate the size of:
+--a box including content, margins and padding
+
+4.Using the keyword 'this' and jquery selector $(this) do the same thing.
+--False
+
+5.Which of the following is not a content panel?
+--jQuery plug-in
+
+6.An accordion panel has the advantage over a tabbed panel:
+--it can have more panels
+
+7.If the user does not have JavaScript enabled in their browser, they should be able to:
+--view all the content anyway
+
+8.The keyword 'this' generally refers to:
+--the object that the method is acting on
+
+9.To create your own jQuery plugin, you extend the jQuery object using its:
+--fn object
+
+10.Why would you go through the extra trouble of making your jQuery code a jQuery plug-in?
+--So it is reusable
+
+11.What method allows you to get the vertical position of the scroll bar for an element?
+--.scrollTop()
+
+12.You can interact normally with the rest of the page when a modal is open.
+--False
+
+13.When creating a picture viewer content panel, there's an issue with loading the same large images over and over when you switch from one image to another. How did we solve this?
+--Cache the images
+
+14.If you want to display information to the user in an element in the center of the screen, no matter where the user is on the page, which content panel is your best option?
+--Modal
+
+15.In jQuery, the height() method and outerHeight() method return the same dimensions.
+--False
+
+16.If you want to display an album of multiple images, with preview images associated to them, which content panel is the best option?
+--Photo Viewer
+
+17.How can you halt animations using jQuery?
+--.stop()
+
+18.To create your own jQuery plugin, you extend the jQuery object using its:
+--fn object
+
+19.If you want to display information about 20 employees in a company, which content panel would be best?
+--Accordion
+
+20.If you want to display automatically cycling headlines to the user with hero images, what would be the best content panel to use?
+--Slider
+
+21.In HTML5, you can store additional information on tags using:
+--data attributes
+
+22.the split() method of the string object will create
+--an array of values
+
+23.If you use an array to store information (rather than an object), you can:
+--store information in a specific order
+
+24.On an array, the difference between the pop() and shift() methods is
+--one removes an item from the beginning and the other from the end
+
+25.When creating an array of objects, the object properties must always be added in the same order.
+--False
+
+26.When doing a search, the script will match the user input to:
+--any value that is required
+
+27.Which method would you use to reorder the contents of an array?
+--sort()
+
+28.Rather than recreating the displayed data every time a filter or search is changed, it is better to:
+--show/hide values
+
+29.Filtering is a technique that
+--shows items within a range of values
+
+30.Searching is a technique that
+--allows the user to type a value to display
+
+31.In the following compare function definition, when would the sort swap the order of a and b?
+
+var arr = [15, 6, 9, 2, 30];
+
+arr.sort (function(a, b){
+    return a - b;
+});
+--When b is greater than a
+
+32.Sorting is a technique that:
+--changes the order of the items being displayed
+
+33.What does the following code do to the prices array?
+var prices = [1, 2, 125, 19, 14];
+
+prices = prices.sort((a, b) => b - a);
+--Sort prices in descending order
+
+34.Given the following code, what would be the value of the scores array?
+--[1, 10, 2, 5, 9]
+
+35.Sorting arrays lexicographically in JavaScript orders strings in the following order:
+--numbers, uppercase, lowercase
+
+36.You can change the order returned by your array sort method by using a compare function.
+--True
+
+37.Filtering and searching accomplish the same thing
+--False
+
+38.The array sort method can be used to: (select all that apply)
+-- randomize an array order
+sort an array in ascending order
+sort an array in descending order
+
+39.You cannot use the array sort method to randomize the array order.
+--False
+
+40.When sorting an array, we can define a compare function that will specify
+--the order of two values
+
+41.Which attribute would we change to show the value of a password field to the user?
+--type
+
+42.Which property of the `<form>` element contains a node representing each form control?
+--elements
+
+43.Which of the following is NOT a property or method of the `<form>` element?
+--fields
+
+44.If we what to run our JavaScript when the form is submitted instead of sending it to the server, what method must we call?
+--preventDefault()
+
+45.When a form control looses focus it triggers a(n) __________ event.
+--blur
+
+46.Form enhancement refers to HTML5 and JavaScript code that:
+--will help make it easier for the user fill in the form
+
+47.Form controls contain a reference to the form they are inside of.
+--True
+
+48.Which event tells you when a user has changed the value of a text input?
+--input
+
+49.When a form control looses focus it triggers a(n) __________ event.
+--checked
+
+50.The term "Form Controls" refers to:
+--all fields and buttons in the form
+
+51.The this keyword works the same in normal function definitions and arrow function definitions
+--False
+
+52.Which methods exist in the Object.prototype? Select all that apply
+--constructor
+valueOf
+toLocaleString
+
+53.Given the following code, which method has an error in it?
+class Temperature {
+	constructor(celsius) {
+		this.celsius = celsius;
+	}
+	get fahrenheit() {
+		return this.celsius * 1.8 + 32;
+	}
+	set fahrenheit(val) {
+		this.celsius = (val - 32) / 1.8;
+	}
+	toString() {
+		return `Temperature is ${celcius} degrees C`;
+	}
+}
+--toString.
+
+54.What operator allows us to check if a property or method is a member of an object?
+--in
+
+55.What is the base prototype for all objects?
+--Object.prototype
+
+56.We have the ability to define methods in our class that can act as a variable by an instantiated object of that class.
+--True
+
+57.The class keyword was added to javascript in the year 2015
+--True
+
+58.Creating objects was not possible in JavaScript before ES2015
+--False
+
+59.We can find the prototype of any object by using the Object.getPrototypeOf() method
+--True
+
+60.When instantiating an object, what method in the class definition gets called?
+--constructor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

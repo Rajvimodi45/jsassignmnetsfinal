@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+	<html lang="en">
+ 
+	<head>
+	    <meta charset="UTF-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>Sorting</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="style.css">
+        
+	    <!-- Custom CSS -->
+	    <style>
+ 
+	    </style>
+	</head>
+
+    <body class="bg-light">
+	    <nav class="navbar navbar-expand-lg navbar-dark bg-primary bg-gradient" id="topNavBar">
+	    </nav>
+	    <div class="container py-3" id="page-container">
+	      
+	        <hr>
+	        <div id="printables">
+	            <div class="to_print" id="first_element">
+	                <h3 class="text-center"><b>Famous Fictional Movie Characters</b></h3>
+	                <hr>					
+	                <table class="table table-bordered " id="table-list">
+	                    <thead>
+	                        <tr class="bg-primary bg-gradient text-white">
+	                            <th class="number"># <span class="chevron"> </span></th>
+	                            <th class="">Name <span class="chevron"> </span></th>
+	                            <th class="">Genre <span class="chevron"> </span></th>
+	                            <th class="">Date <span class="chevron"> </span></th>
+	                            <th class="">Region <span class="chevron"> </span></th>
+	                            <th class="">Country <span class="chevron"> </span></th>
+	                        </tr>
+	                    </thead>
+	                    <tbody id="table-content">
+	                    </tbody>
+	                </table>
+	                <div id="loader" class="d-flex justify-content-center">
+	                    <div class="spinner-border" role="status">
+	                        <span class="visually-hidden">Loading...</span>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	        <hr>
+	        <center><button type="button" class="btn btn-sm btn-success rounded-0 my-2" id="reload_data">Reload Data</button></center>
+			
+	    </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.6.0.js"
+integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	</body>
+    </html>
