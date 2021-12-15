@@ -1,0 +1,356 @@
+Skip To Content
+Quick Links
+WEB303-21F-002 Javascript 2 21 Fall - 002 Content Week 15 Take Test: Final Quiz
+Hide Course Menu
+WEB303-21F-002 (Javascript 2 21 Fall - 002)
+Home Page
+Information
+Announcements
+Online Classroom
+Content
+Assignments
+Quizzes
+Github Tutorials
+Email Professor
+Tools
+Help
+Take Test: Final Quiz
+ 
+Test Information
+Description	
+Instructions	
+Multiple Attempts	Not allowed. This test can only be taken once.
+Force Completion	This test can be saved and resumed later.
+Your answers are saved automatically.
+Expand Question Completion Status:
+QUESTION 1
+
+Which of the following is not a valid input type?
+
+		
+search
+
+		
+query
+
+		
+tel
+
+		
+url
+
+10 points   
+
+QUESTION 2
+
+Sorting arrays in JavaScript by default orders strings in the following order:
+
+		
+uppercase , symbols, lowercase
+
+		
+lower case, upper case, symbols
+
+		
+lowercase, numbers, uppercase
+
+		
+numbers, uppercase, lowercase
+
+10 points   
+
+QUESTION 3
+
+Since images on the page load asynchronously, there is no way to ensure that the last image requested is the one that will be displayed to the user.
+
+ True
+
+ False
+
+10 points   
+
+QUESTION 4
+
+Which methods exist in the Object prototype? Select all that apply
+
+		
+toString
+
+		
+constructor
+
+		
+hasString
+
+		
+filter
+
+10 points   
+
+QUESTION 5
+
+The checked property on checkbox inputs returns a boolean value in javascript.
+
+ True
+
+ False
+
+10 points   
+
+QUESTION 6
+
+When instantiating an object, what method in the class definition gets called?
+
+		
+no method gets called
+
+		
+a custom method defined in the class
+
+		
+constructor
+
+		
+toString
+
+10 points   
+
+QUESTION 7
+
+The keyword 'this' generally refers to:
+
+		
+the entire program contained in the file
+
+		
+the object that the method is acting on
+
+		
+the method that is currently running
+
+		
+the variable that was last declared using the keyword 'var'
+
+10 points   
+
+QUESTION 8
+
+You cannot use the array sort method to randomize the array order.
+
+ True
+
+ False
+
+10 points   
+
+QUESTION 9
+
+Filtering is a technique that
+
+		
+allows the user to type a value to display
+
+		
+gets values from a database and displays them
+
+		
+shows items within a range of values
+
+		
+changes the order of the items being displayed
+
+10 points   
+
+QUESTION 10
+
+Which property of the `<form>` element contains a node representing each form control?
+
+		
+elements
+
+		
+action
+
+		
+controls
+
+		
+methods
+
+10 points   
+
+QUESTION 11
+
+Creating objects was possible in JavaScript before ES2015
+
+ True
+
+ False
+
+10 points   
+
+QUESTION 12
+
+How do we get the data-order value from the following tag using jQuery?
+
+
+
+<a id="birthdate" href="#" data-sort="date">Birth Date</a>
+
+		
+$('#birthdate').data("sort");
+
+		
+$('#birthdate').data("date");
+
+		
+$('#birthdate').data("birthdate");
+
+		
+$('#birthdate').data("href");
+
+10 points   
+
+QUESTION 13
+
+Which event tells you when a user has changed the value of a text input?
+
+		
+focus
+
+		
+input
+
+		
+blur
+
+		
+value
+
+10 points   
+
+QUESTION 14
+
+Searching is a technique that
+
+		
+allows the user to type a value to display
+
+		
+changes the order of the items being displayed
+
+		
+shows items within a range of values
+
+		
+gets values from a database and displays them
+
+10 points   
+
+QUESTION 15
+
+Which event tells you when a user has changed the value of a text input?
+
+		
+focus
+
+		
+value
+
+		
+input
+
+		
+blur
+
+10 points   
+
+QUESTION 16
+
+Which attribute would we change to show the value of a password field to the user?
+
+		
+method
+
+		
+display
+
+		
+password
+
+		
+type
+
+10 points   
+
+QUESTION 17
+
+We can have methods act as if they were properties of an object by using the `get` and `set` keywords in front of the method definitions.
+
+ True
+
+ False
+
+10 points   
+
+QUESTION 18
+
+What does the $.fn statement allow us to do in jQuery?
+
+		
+Extend jQuery with your own functions
+
+		
+Create new event bindings
+
+		
+Filter a jQuery object
+
+		
+Sort a jQuery object
+
+10 points   
+
+QUESTION 19
+
+GIven the following code, what should we return to get the sort to return the array in descending order?
+
+
+
+values.sort(function(a, b){
+    //return statement here
+});
+		
+return b - a;
+
+		
+return a * b;
+
+		
+return a - b
+
+		
+return b / a;
+
+10 points   
+
+QUESTION 20
+
+Which of the following is not a content panel?
+
+		
+Slider
+
+		
+Content Card
+
+		
+Modal Window
+
+		
+Tabbed Section
+
+10 points   
+
+Click Save and Submit to save and submit. Click Save All Answers to save all answers.
+ 
