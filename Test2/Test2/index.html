@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/slider.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="slider">
+        <div class="slide-viewer">
+            <div class="slide-group">
+                <div class="slide"><img src="img/html5.png" /></div>
+                <div class="slide"><img src="img/jquery.png" /></div>
+                <div class="slide"><img src="img/angular.jpg" /></div>
+            </div>
+        </div>
+        <div class="slide-buttons"></div>
+    </div>
+
+
+    <div>
+        <form action="/register" method="post">
+            <fieldset>
+                <div>
+                    <label for="username">Username: </label>
+                    <input id="username" name="username" type="text">
+                </div>
+                <div>
+                    <label for="password">Password: </label>
+                    <input id="password" name="password" type="password">
+                </div>
+
+                <div>
+                    <label for="dateOfBirth">Date of Birth: </label>
+                    <input id="dateOfBirth" name="dateOfBirth" type="date">
+                </div>
+                <div>
+                    <input type="submit" value="Register">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+    <table id="userInfo">
+        <thead>
+            <tr>
+                <th data-order="alphabetical">Username</th>
+                <th data-order="number">Password Length</th>
+                <th data-order="date">Date of Birth</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/slider.js"></script>
+    <script type="text/javascript" src="js/validation.js"></script>
+    <script type="text/javascript" src="js/sort.js"></script>
+
+</body>
+
+</html>
